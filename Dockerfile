@@ -17,3 +17,5 @@ COPY --from=builder /app/target/Fast_Gestion_Calidad.war /usr/local/tomcat/webap
 EXPOSE 8080
 
 CMD ["catalina.sh", "run"] 
+
+#tercer intento
